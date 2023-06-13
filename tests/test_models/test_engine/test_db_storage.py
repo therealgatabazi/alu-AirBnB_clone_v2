@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-TestDBStorageDocs and TestDBStorage classes
+Contains the TestDBStorageDocs and TestDBStorage classes
 """
 from datetime import datetime
 import inspect
@@ -44,7 +44,6 @@ class TestDBStorageDocs(unittest.TestCase):
 test_db_storage.py'])
         self.assertEqual(result.total_errors, 0,
                          "Found code style errors (and warnings).")
-
 
 class TestDBStorageDocs(unittest.TestCase):
     """Tests to check the documentation and style of DBStorage class"""
